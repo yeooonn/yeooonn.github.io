@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "deploy": "touch out/.nojekyll && gh-pages -d out -b deploy",
+    "deploy": "npm run build && touch out/.nojekyll && gh-pages --dotfiles -d out",
     "lint": "eslint"
   },
   "dependencies": {
@@ -22,6 +21,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.22",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "gh-pages": "^6.3.0",

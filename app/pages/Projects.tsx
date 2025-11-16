@@ -10,7 +10,7 @@ const Projects = () => {
     >
       <div className="w-full flex flex-col gap-7">
         <div className="mb-7">
-          <h1>05</h1>
+          <h1>04</h1>
           <Typography.Head2>Projects</Typography.Head2>
         </div>
 

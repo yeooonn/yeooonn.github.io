@@ -8,7 +8,7 @@ const Contect = () => {
     >
       <div className="flex flex-col gap-7">
         <div className="mb-20">
-          <h1>06</h1>
+          <h1>05</h1>
           <Typography.Head2>Contect</Typography.Head2>
         </div>
 

@@ -10,7 +10,7 @@ const Experience = () => {
     >
       <div className="flex flex-col gap-7">
         <div>
-          <h1>04</h1>
+          <h1>03</h1>
           <Typography.Head2>Experience</Typography.Head2>
         </div>
 

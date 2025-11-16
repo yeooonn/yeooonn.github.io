@@ -29,6 +29,13 @@ const About = () => {
             향상시킨 실적이 있습니다.
           </Typography.P1>
         </div>
+
+        <hr className="border-gray-300" />
+
+        <div className="mt-20">
+          <Typography.P1>보유 자격증</Typography.P1>
+          <Typography.P2>정보처리기사 - 한국사업인력공단</Typography.P2>
+        </div>
       </div>
     </section>
   );

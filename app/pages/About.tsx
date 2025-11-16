@@ -22,8 +22,8 @@ const About = () => {
 
         <div>
           <Typography.P1 className="text-xl font-light leading-relaxed">
-            NH농협, 미래에셋, 국민은행, 우리은행 등
-            <strong>금융권 고객사에 성공적으로 솔루션을 배포</strong>한 경험이
+            농협, 미래에셋, 국민은행, 우리은행 등
+            <strong> 금융권 고객사에 성공적으로 솔루션을 배포</strong>한 경험이
             있으며, React-Query 도입으로 <br />
             API 호출을 20% 감소시키고, 컴포넌트 패턴 개선으로 재사용성을 20%
             향상시킨 실적이 있습니다.

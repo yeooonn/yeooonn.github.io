@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[49146,["/yeooonn.github.io/_next/static/chunks/2d4d399b5673e247.js"],"default"]
-3:I[49030,["/yeooonn.github.io/_next/static/chunks/2d4d399b5673e247.js"],"default"]
-0:{"buildId":"gXlsZtWCwinYOvE61DwVf","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[49146,["/_next/static/chunks/2d4d399b5673e247.js"],"default"]
+3:I[49030,["/_next/static/chunks/2d4d399b5673e247.js"],"default"]
+0:{"buildId":"zrOPAXkfR_ZRIa254ni9L","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}

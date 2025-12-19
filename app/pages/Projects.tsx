@@ -30,13 +30,13 @@ const Projects = () => {
                 <Typography.P1 className="!text-3xl">
                   {exp.project.title}
                 </Typography.P1>
-                <Typography.P3 className="font-medium mb-4">
+                <Typography.P2 className="font-medium mb-4">
                   {exp.project.explanation}
-                </Typography.P3>
+                </Typography.P2>
                 {exp.project.description.map((desc, dIdx) => (
-                  <Typography.P3 key={dIdx} className="font-normal text-[#999]">
+                  <Typography.P2 key={dIdx} className="font-normal text-[#999]">
                     {desc}
-                  </Typography.P3>
+                  </Typography.P2>
                 ))}
                 <div className="flex gap-3 flex-wrap mt-4">
                   {exp.project.skills.map((skill, sIdx) => (

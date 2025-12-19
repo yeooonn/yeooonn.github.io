@@ -14,19 +14,36 @@ const About = () => {
 
         <div className="text-xl font-light mt-10">
           <Typography.P1 className="text-xl font-light leading-relaxed">
-            특히 <strong>성능 최적화, 공통 컴포넌트 개발, UI/UX 개선</strong>에
-            강점을 가지고 있으며, 기획자·디자이너·백엔드와 원활히 협업해 <br />
-            실제 서비스 런칭 및 대형 고객사 배포 경험을 보유하고 있습니다.
+            팀의 생산성과 서비스의 지속 가능성을 함께 고민하는 3년차 프론트엔드
+            개발자로서 <br />
+            동료 개발자가 빠르게 이해하고 확장할 수 있는
+            <strong> 가독성 높은 코드</strong>와<strong> 구조적인 설계</strong>
+            를 개발의 중요한 기준으로 삼고 있습니다.
           </Typography.P1>
         </div>
 
         <div>
           <Typography.P1 className="text-xl font-light leading-relaxed">
-            농협, 미래에셋, 국민은행, 우리은행 등
-            <strong> 금융권 고객사에 성공적으로 솔루션을 배포</strong>한 경험이
-            있으며, React-Query 도입으로 <br />
-            API 호출을 20% 감소시키고, 컴포넌트 패턴 개선으로 재사용성을 20%
-            향상시킨 실적이 있습니다.
+            최근에는 Feature-Sliced Design(FSD) 아키텍처를 학습하고 실제
+            프로젝트에 적용하며, <br />
+            역할과 책임이 명확한 폴더 구조를 기반으로
+            <strong> 결합도는 낮추고 응집도는 높이는 설계 경험</strong>을
+            쌓았습니다.
+            <br />
+            이를 통해 기능 추가와 요구사항 변경에도 유연하게 대응할 수 있는
+            코드베이스를 구축했고, <br />
+            협업 과정에서의 커뮤니케이션 비용과 유지보수 부담을 함께 줄일 수
+            있었습니다.
+          </Typography.P1>
+        </div>
+
+        <div>
+          <Typography.P1 className="text-xl font-light leading-relaxed">
+            공통 컴포넌트와 도메인 단위 설계를 통해 유지보수성과 확장성을
+            지속적으로 개선하는 과정에서 개발의 재미를 느끼며, <br />
+            단기적인 구현보다
+            <strong> 장기적으로 안정적인 코드와 팀의 생산성</strong>을 높이는
+            방향으로 고민하고 실천하는 개발자입니다.
           </Typography.P1>
         </div>
 

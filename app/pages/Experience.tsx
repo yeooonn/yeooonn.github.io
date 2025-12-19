@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="Experience"
-      className="w-full h-screen bg-gray-50 px-30 flex items-center"
+      className="w-full bg-gray-50 p-30 flex items-center"
     >
       <div className="flex flex-col gap-7">
         <div>
@@ -30,9 +30,17 @@ const Experience = () => {
 
             {exp.projects.map((project, pIdx) => (
               <div key={pIdx} className="flex flex-col gap-3">
-                <Typography.P1 className="text-xl leading-relaxed">
-                  {project.title}
-                </Typography.P1>
+                <div className="flex gap-2">
+                  <Typography.P1 className="text-xl leading-relaxed">
+                    {project.title}
+                  </Typography.P1>
+                  <Typography.P3
+                    key={project.periode}
+                    className="font-normal items-center flex"
+                  >
+                    ({project.periode})
+                  </Typography.P3>
+                </div>
                 {project.description.map((desc, dIdx) => (
                   <Typography.P1 key={dIdx} className="font-normal text-[#999]">
                     {desc}

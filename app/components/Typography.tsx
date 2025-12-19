@@ -10,13 +10,13 @@ interface TypographyProps {
 }
 
 const typoTypeMap: Record<TypoType, string> = {
-  Head1: "text-6xl 2xl:text-8xl font-bold",
-  Head2: "text-4xl 2xl:text-6xl font-bold",
-  Head3: "text-3xl 2xl:text-5xl font-semibold",
-  SubTitle1: "text-xl 2xl:text-3xl font-medium",
-  P1: "text-base 2xl:text-xl",
-  P2: "text-sm 2xl:text-lg",
-  P3: "text-xs 2xl:text-base",
+  Head1: "text-4xl xl:text-5xl 2xl:text-6xl font-bold",
+  Head2: "text-3xl xl:text-4xl 2xl:text-5xl font-bold",
+  Head3: "text-2xl xl:text-3xl 2xl:text-4xl font-semibold",
+  SubTitle1: "text-lg xl:text-xl 2xl:text-2xl font-medium",
+  P1: "text-base xl:text-lg 2xl:text-xl",
+  P2: "text-sm xl:text-base 2xl:text-lg",
+  P3: "text-xs xl:text-sm 2xl:text-base",
 };
 
 const BaseTypography = ({
